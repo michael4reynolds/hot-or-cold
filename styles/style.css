@@ -319,3 +319,14 @@ ul.guessBox li {
 	margin: 0.2em;
 	color: #fff;
 }
+
+@keyframes winner {
+  0% {background-color: crimson;}
+  25% {background-color: lightyellow;}
+  50% {background-color: cornflowerblue;}
+  100% {background-color: lightseagreen;}
+}
+
+.flashing {
+  animation: winner 4s linear infinite;
+}
