@@ -43,7 +43,6 @@ $(function () {
 
 function newGame() {
   randnum = newRandomNumber();
-  console.log('This games number is: ' + randnum);
 }
 
 function newRandomNumber() {
@@ -109,7 +108,5 @@ function flashNewGame() {
 
 function removeFlashing() {
   $('body').removeClass('flashing');
-
-  // a_restart.removeClass('flashing')
 }
 //# sourceMappingURL=app.js.map

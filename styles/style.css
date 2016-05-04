@@ -328,5 +328,6 @@ ul.guessBox li {
 }
 
 .flashing {
-  animation: winner 4s linear infinite;
+  animation: winner 4s linear;
+  animation-iteration-count: 3;
 }
